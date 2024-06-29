@@ -1,0 +1,9 @@
+db name = cheradb
+table name = user,adminaccount,bookings,deals,images,served_books
+
+user = user_id,email,username,password
+adminaccount = admin_id,admin_username,admin_email,admin_password
+bookings = book_id, book_name,book_lname,book_email,contact,date,people,interest,additional
+deals = deals_id,deals_name,deals_location,deals_image
+images = image_id,image_name, image_location, image_path
+served_books = served_id, served_name, served_lname, served_contact
